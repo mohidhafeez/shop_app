@@ -5,7 +5,7 @@ import 'package:shop_app/global_variable.dart';
 
 class CartPage extends StatelessWidget {
   const CartPage({super.key});
-
+//hello
   @override
   Widget build(BuildContext context) {
     final cart = (Provider.of<CartProvider>(context).cart);
